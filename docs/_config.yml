@@ -9,3 +9,4 @@ defaults:
       path: "assets/wavs"
     values:
       wav: true
+baseurl: ESRelation
