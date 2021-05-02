@@ -1,0 +1,64 @@
+exp:
+  - esc-folds-baseline
+seed:
+  - 0
+plot:
+  - false
+optimizer:
+  - adam
+net:
+  - ResNeXtBaseline
+fold:
+  - 1
+#  - 2
+#  - 3
+#  - 4
+#  - 5
+run_epochs:
+  - 70
+batch_size:
+  - 50
+l2:
+  - 1.0e-4
+init_lr:
+  - 5.0e-4
+label_smoothing:
+  - 0.1
+dataset:
+  - EscRawAudio
+sr:
+  - 44100
+crop_seconds:
+  - 0.
+nb_classes:
+  - 50
+pitch_shift_steps:
+  - "[]"
+time_stretch_args:
+  - "[0, 1, 1]"
+ckpt_prefix:
+  - auto
+device:
+  - 1
+feat:
+  - LogMelWithVariousWinHop
+feat_interpolate:
+  - True
+n_mels:
+  - 128
+resnet2d_arch:
+  - resnext50_32x4d
+resnet2d_use_num_layers:
+  - 3
+resnet2d_pretrained:
+  - True
+fc_layers:
+  - "[]"
+resnet2d_pool:
+  - max
+freq_mask_param:
+  - "[0.5, 8]"
+time_mask_param:
+  - "[0.5, 8]"
+fake_save:
+  - False
