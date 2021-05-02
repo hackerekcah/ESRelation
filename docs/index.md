@@ -19,17 +19,17 @@ description: Hongwei Song, Shiwen Deng, Jiqing Han <br> <a href="http://en.hit.e
             <td style="text-align:center">
                 <h3><strong>{{ wav_file.basename }}</strong></h3>
                 <audio controls>
-                  <source src="{{ wav_file.path }}" type="audio/wav">
+                  <source src="{{ wav_file.path | relative_url}}" type="audio/wav">
                   Your browsers did not support audio tag.
                 </audio>
             </td>
             <td>
                 {% assign gif_file = wav_file.path | replace: "wavs", "gifs" |replace: wav_file.extname, ".gif" %}
-                <img src="{{ gif_file }}"/>
+                <img src="{{ gif_file | relative_url}}"/>
             </td>
             <td>
                 {% assign png_file = wav_file.path | replace: "wavs", "pngs" |replace: wav_file.extname, "_structure.png" %}
-                <img src="{{ png_file }}"/>
+                <img src="{{ png_file | relative_url}}"/>
             </td>
         </tr>
     {% endfor %}
