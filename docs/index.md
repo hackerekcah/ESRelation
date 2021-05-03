@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Exporing Relation Information for CNN-based <br> Environmental Sound Classification
-description: Hongwei Song, Shiwen Deng, Jiqing Han <br> <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China<br><a href="./pub.html" style="color:Gold;"><strong>&#128073 More Publications</strong></a>;   <a href="https://github.com/hackerekcah/ESRelation" style="color:Orange;"><strong>&#128073; Code Repository</strong></a>
+description: Hongwei Song, Shiwen Deng, Jiqing Han <br> <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
+show_pub: true
 ---
 <h1 style="text-align:center"> Visualization Examples using ESC-50 audio </h1>
 

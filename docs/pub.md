@@ -1,7 +1,8 @@
 ---
 layout: default
+show_vis: true
 title: Selected Papers on Environmental Sound Classification
-description: Speech Processing Lab, <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China <br><a href="./" style="color:Gold;"><strong>&#128073 Visualization</strong></a>;   <a href="https://github.com/hackerekcah/ESRelation" style="color:Orange;"><strong>&#128073; Code Repository</strong></a>
+description: Speech Processing Lab, <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
 ---
 
 <table style="table-layout:fixed;width:80%;margin-left:auto;margin-right:auto;">
