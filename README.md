@@ -1,5 +1,5 @@
-## 1. This is the official repository for the following paper:
->Exploring Relation Information for CNN-based Environmental Sound Classification (submitted to Signal Processing Letters) 
+## 1. The official repository for the project [ESRelation](https://hackerekcah.github.io/ESRelation):
+> Paper Title: Exploring Relation Information for CNN-based Environmental Sound Classification
 ## 2. [&#9758; Project Page](https://hackerekcah.github.io/ESRelation) for dynamic visualization examples.
 ## 3. Trained Models
 * click [here](https://pan.baidu.com/s/1s5gaF3mrcfp3_KeeYdfopw) (pw: `hack`) to download the models listed in the following tables.

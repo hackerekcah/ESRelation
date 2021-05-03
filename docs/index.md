@@ -3,6 +3,7 @@ layout: default
 title: Exporing Relation Information for CNN-based <br> Environmental Sound Classification
 description: Hongwei Song, Shiwen Deng, Jiqing Han <br> <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
 show_pub: true
+show_download: true
 ---
 <h1 style="text-align:center"> Visualization Examples using ESC-50 audio </h1>
 
