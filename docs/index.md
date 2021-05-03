@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exporing Relation Information for CNN-based <br> Environmental Sound Classification
-description: Hongwei Song, Shiwen Deng, Jiqing Han <br> <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
+description: Hongwei Song<sup>1</sup>, Shiwen Deng<sup>2</sup>, Jiqing Han<sup>1</sup> <br> <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;"><sup>1</sup>Harbin Institute of Technology, China</a>  <br> <a href="http://www.hrbnu.edu.cn/" style="color:pink;"><sup>2</sup>Harbin Normal University, China</a>
 show_pub: true
 show_download: true
 ---
