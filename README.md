@@ -2,7 +2,7 @@
 > Paper Title: Exploring Inter-Node Relations in CNNs for Environmental Sound Classification
 ## 2. [&#9758; Project Page](https://hackerekcah.github.io/ESRelation) for dynamic visualization examples.
 ## 3. Trained Models
-* click [here](https://pan.baidu.com/s/1s5gaF3mrcfp3_KeeYdfopw) (pw: `hack`) to download the models listed in the following tables.
+* click [here](https://pan.baidu.com/s/1s5gaF3mrcfp3_KeeYdfopw) (pw: `hack`) to download the trained models
 ### 3.1 ESC-50 dataset
 | Model| 5Fold-CV |
 | -----| -----|
