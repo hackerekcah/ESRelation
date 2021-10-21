@@ -1,8 +1,9 @@
 ---
 layout: default
 show_vis: true
+show_appendix: true
 title: Selected Papers on Environmental Sound Classification
-description: Speech Processing Lab, <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
+description: Auditory Intelligence Research Center, <a href="http://en.hit.edu.cn/about/overview?s=info" style="color:pink;">&#64;Harbin Institute of Technology</a>, China
 ---
 
 <table style="table-layout:fixed;width:80%;margin-left:auto;margin-right:auto;">
