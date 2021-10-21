@@ -70,7 +70,8 @@ class EscRawAudio(torch.utils.data.Dataset):
             if isinstance(self.transform.transforms[0], FakePitchShift):
                 file = self.transform.transforms[0](file)
         # (channels, frames)
-        audio, sr = torchaudio.load(filepath=file, normalization=lambda x: torch.abs(x).max(), channels_first=True)
+        # audio, sr = torchaudio.load(filepath=file, normalization=lambda x: torch.abs(x).max(), channels_first=True)
+        audio, sr = torchaudio.load(filepath=file, normalize=True, channels_first=True)
         audio = self._process_audio(audio, sr, self.target_sr)
         label = int(file[-5:-4]) if file[-6:-4].startswith('-') else int(file[-6:-4])
         sample = (torch.as_tensor(audio, dtype=torch.float32), torch.as_tensor(label, dtype=torch.int64))

@@ -6,7 +6,7 @@ def register_dataset(cls):
     return cls
 
 
-from data import dcase18_dataset, esc_dataset
+from data import dcase18_dataset, esc_dataset, urbansound8k
 
 
 __all__ = ["register_dataset"]

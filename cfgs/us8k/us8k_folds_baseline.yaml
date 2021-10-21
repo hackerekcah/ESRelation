@@ -1,8 +1,7 @@
 exp:
-  - dcase-folds-rblock-pe
+  - us8k-folds-baseline
 seed:
-  - 2021
-#  - 0
+  - 0
 plot:
   - false
 optimizer:
@@ -11,6 +10,15 @@ net:
   - ResNeXtRelation
 fold:
   - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 run_epochs:
   - 70
 batch_size:
@@ -22,15 +30,15 @@ init_lr:
 label_smoothing:
   - 0.1
 dataset:
-  - Dcase18TaskADevSet
+  - UrbanSound8K
 sr:
-  - 48000
+  - 22050
 crop_seconds:
   - 0.
 nb_classes:
   - 10
 pitch_shift_steps:
-  - "[]"
+  - "[-3.5, -2.5, 0., 2.5, 3.5]"
 time_stretch_args:
   - "[0, 1, 1]"
 ckpt_prefix:
@@ -39,10 +47,16 @@ device:
   - 1
 feat:
   - LogMelWithVariousWinHop
+feat_image_like:
+  - False
 feat_interpolate:
   - True
 n_mels:
   - 128
+n_frames:
+  - 173
+in_bn:
+  - False
 resnet2d_arch:
   - resnext50_32x4d
 resnet2d_use_num_layers:
@@ -52,18 +66,20 @@ resnet2d_pretrained:
 fc_layers:
   - "[]"
 resnet2d_pool:
-  - avg
+  - max
 freq_mask_param:
   - "[0.5, 8]"
 time_mask_param:
   - "[0.5, 8]"
 r_stage_block:
-  - "(1,2)"
+  - "(0,0)"
 r_block_name:
-  - "RBlockPEEfficient"
+  - "RBlock"
 r_structure_type:
-  - minus_entropy
+  - zero
+#  - entropy
 softmax_type:
-  - sparsemax
+  - softmax
+#  - sparsemax
 fake_save:
   - False
