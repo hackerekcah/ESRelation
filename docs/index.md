@@ -9,8 +9,10 @@ show_download: true
 <h1 style="text-align:center"> Visualization Examples using ESC-50 audio </h1>
 <h4> Q1: How to interpret the relation heatmaps? </h4>
 >>Please see Section A4 of the <a href="./appendix.html">Appendix</a>
-<h4> Q2: What does heatmap activation mean in silence part? </h4>
+<h4> Q2: How to interpret visualizations for ambient and impulsive style audio? </h4>
 >>Please see Section A5 of the <a href="./appendix.html">Appendix</a>
+<h4> Q3: What does heatmap activation mean in silence part? </h4>
+>>Please see Section A6 of the <a href="./appendix.html">Appendix</a>
 <table width="200%">
     <tr>
         <th>Audio</th>
